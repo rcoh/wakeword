@@ -1,0 +1,9 @@
+[package]
+name = "wakeword"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures-util = "0.3.31"
+pin-project-lite = "0.2.16"
+tokio = { version = "1.43.0", features = ["full", "rt"] }
